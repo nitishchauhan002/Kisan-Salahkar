@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef5ee;
+}
+
+/* ✅ NAVBAR */
+.navbar {
+    background: #1b5e20;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav-left {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ✅ HERO (COMMON) */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url("bg.jpg");   /* Farmer Image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 500px;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+/* ✅ SMALL HERO FOR INNER PAGES */
+.small-hero {
+    min-height: 180px;
+    padding-top: 40px;
+}
+
+/* ✅ GRID (DASHBOARD) */
+.card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+/* ✅ DASHBOARD CARDS */
+.feature-card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+    text-align: center;
+    color: black;
+}
+
+.feature-card h3 {
+    color: #2e7d32;
+}
+
+/* ✅ BUTTON */
+button {
+    background: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background: #1b5e20;
+}
+
+/* ✅ CENTER CONTENT (Weather / Crop / Info Pages) */
+.page-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+/* ✅ INFO CARD (Weather Style) */
+.info-card {
+    width: 380px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+/* ✅ MINI GRID (Forecast Boxes) */
+.mini-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.mini-grid div {
+    background: #eef5ee;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* ✅ WEATHER TEXT */
+.info-card h2 {
+    color: #2e7d32;
+}
